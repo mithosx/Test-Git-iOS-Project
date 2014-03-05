@@ -21,6 +21,7 @@
 		3F4C967A18C747EB00A435DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4C965C18C747EB00A435DD /* UIKit.framework */; };
 		3F4C968218C747EB00A435DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F4C968018C747EB00A435DD /* InfoPlist.strings */; };
 		3F4C968418C747EB00A435DD /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C968318C747EB00A435DD /* Git_TestTests.m */; };
+		3F4C968F18C74CB000A435DD /* NBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C968E18C74CB000A435DD /* NBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3F4C967F18C747EB00A435DD /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		3F4C968118C747EB00A435DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F4C968318C747EB00A435DD /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		3F4C968D18C74CB000A435DD /* NBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBTest.h; sourceTree = "<group>"; };
+		3F4C968E18C74CB000A435DD /* NBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				3F4C966A18C747EB00A435DD /* Main.storyboard */,
 				3F4C966D18C747EB00A435DD /* NBViewController.h */,
 				3F4C966E18C747EB00A435DD /* NBViewController.m */,
+				3F4C968D18C74CB000A435DD /* NBTest.h */,
+				3F4C968E18C74CB000A435DD /* NBTest.m */,
 				3F4C967018C747EB00A435DD /* Images.xcassets */,
 				3F4C965F18C747EB00A435DD /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				3F4C966F18C747EB00A435DD /* NBViewController.m in Sources */,
 				3F4C966918C747EB00A435DD /* NBAppDelegate.m in Sources */,
 				3F4C966518C747EB00A435DD /* main.m in Sources */,
+				3F4C968F18C74CB000A435DD /* NBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
